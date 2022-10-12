@@ -1,0 +1,15 @@
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+.map-overlay{
+  position: absolute;
+  left:0;
+  padding: 10px;
+}
+.marker {
+background-image: url('mapbox-icon.png');
+background-size: cover;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+cursor: pointer;
+}
